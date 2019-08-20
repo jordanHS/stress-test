@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Stress Test</title>
+  </head>
+  <body>
+    <div class="container">
+         <div class="jumbotron">
+           <h2>Stress Test</h2>
+         </div>
+         <form id="stress-test">
+           <div class="form-group">
+             <p>Check the following warning signs that apply to you:</p>
+             <input type="checkbox" name="warning-signs" value="no sleep"> Loss of sleep.<br>
+             <input type="checkbox" name="warning-signs" value="overwhelmed"> Overwhelmed.<br>
+             <input type="checkbox" name="warning-signs" value="nausea"> Nausea.<br>
+             <input type="checkbox" name="warning-signs" value="headache"> headache.<br>
+             <input type="checkbox" name="warning-signs" value="dry mouth"> Dry Mouth.<br>
+             <input type="checkbox" name="warning-signs" value="appetite loss"> Loss of appetite.<br>
+          </div>
+          <div class="form-group">
+          <p>Which symptoms have you experienced:</p>
+            <input type="checkbox" name="symptoms" value="low energy"> Low Energy.<br>
+            <input type="checkbox" name="symptoms" value="irritability"> Irritability.<br>
+            <input type="checkbox" name="symptoms" value="aches"> Aches.<br>
+            <input type="checkbox" name="symptoms" value="chest pain"> Chest pain.<br>
+          </div>
+          <div class="form-group">
+            <p>Managing your stress:</p>
+            <input type="checkbox" name="management" value="meditation"> Meditation.<br>
+            <input type="checkbox" name="management" value="yoga"> Do yoga.<br>
+            <input type="checkbox" name="management" value="exercise"> Exercise.<br>
+            <input type="checkbox" name="management" value="sleep"> Sleep.<br>
+          <button type="submit">Submit Survey</button>
+         </form>
+         <span id="warning-responses">
+           <p>I have experienced the following warning signs:</p>
+        </span>
+        <br>
+        <span id="symptom-responses">
+          <p>I have experienced the following symptoms:</p>
+        </span>
+        <span id="management-responses">
+          <p> I use these activities to manage my responses:</p>
+        </span>
+        <span id="good-job">
+          <p>You're dooing great! Keep of the good work!</p>
+        </span>
+        <span id="suggestions">
+          <p>Here are some resources to help you manage your stress better</p>
+            <ol>
+              <li><a href="https://www.webmd.com/balance/stress-management/stress-management">WebMD: Stress Management</a></li>
+              <li><a href="https://www.mayoclinic.org/healthy-lifestyle/stress-management/basics/stress-basics/hlv-20049495">Mayo Clinic- Stress Management</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Stress_management">Wikpedia- Stress Management</a></li>
+            </ol>
+      </span>
+  </div>
+  </body>
+</html>
